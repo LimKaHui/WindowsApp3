@@ -113,9 +113,9 @@ Partial Class Header
         '
         'Panel2
         '
-        Me.Panel2.Location = New System.Drawing.Point(0, 149)
+        Me.Panel2.Location = New System.Drawing.Point(0, 147)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1942, 956)
+        Me.Panel2.Size = New System.Drawing.Size(1942, 958)
         Me.Panel2.TabIndex = 2
         '
         'Header
