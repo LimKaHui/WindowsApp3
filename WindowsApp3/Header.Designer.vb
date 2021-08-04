@@ -44,15 +44,17 @@ Partial Class Header
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1942, 149)
+        Me.Panel1.Size = New System.Drawing.Size(1942, 179)
         Me.Panel1.TabIndex = 1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(1855, 12)
+        Me.Button1.Location = New System.Drawing.Point(2226, 14)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 60)
+        Me.Button1.Size = New System.Drawing.Size(90, 72)
         Me.Button1.TabIndex = 5
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -61,9 +63,10 @@ Partial Class Header
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label5.Location = New System.Drawing.Point(1665, 65)
+        Me.Label5.Location = New System.Drawing.Point(1998, 78)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(131, 32)
+        Me.Label5.Size = New System.Drawing.Size(152, 38)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "About Us"
         '
@@ -72,9 +75,10 @@ Partial Class Header
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label4.Location = New System.Drawing.Point(1420, 65)
+        Me.Label4.Location = New System.Drawing.Point(1704, 78)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(186, 32)
+        Me.Label4.Size = New System.Drawing.Size(215, 38)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Cancel Room"
         '
@@ -83,9 +87,10 @@ Partial Class Header
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label3.Location = New System.Drawing.Point(1232, 65)
+        Me.Label3.Location = New System.Drawing.Point(1478, 78)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(119, 32)
+        Me.Label3.Size = New System.Drawing.Size(135, 38)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Booking"
         '
@@ -94,9 +99,10 @@ Partial Class Header
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Location = New System.Drawing.Point(1075, 65)
+        Me.Label2.Location = New System.Drawing.Point(1290, 78)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(90, 32)
+        Me.Label2.Size = New System.Drawing.Size(104, 38)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Room"
         '
@@ -105,29 +111,32 @@ Partial Class Header
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label1.Location = New System.Drawing.Point(898, 65)
+        Me.Label1.Location = New System.Drawing.Point(1078, 78)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(90, 32)
+        Me.Label1.Size = New System.Drawing.Size(104, 38)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Home"
         '
         'Panel2
         '
-        Me.Panel2.Location = New System.Drawing.Point(0, 147)
+        Me.Panel2.Location = New System.Drawing.Point(0, 176)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1942, 958)
+        Me.Panel2.Size = New System.Drawing.Size(2330, 1150)
         Me.Panel2.TabIndex = 2
         '
         'Header
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(144.0!, 144.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.AutoSize = True
         Me.ClientSize = New System.Drawing.Size(1942, 1102)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.MaximumSize = New System.Drawing.Size(2396, 1336)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.MaximumSize = New System.Drawing.Size(2875, 1603)
         Me.Name = "Header"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Header"
